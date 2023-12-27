@@ -6,10 +6,15 @@
 
 * {
   font-family: IRANSansX !important;
+
 }
 
 body {
   background-color: #e7e7e785;
   font-size: 13px;
+  overflow-x: hidden !important;
 }
 
+html {
+  overflow-x: hidden;
+}

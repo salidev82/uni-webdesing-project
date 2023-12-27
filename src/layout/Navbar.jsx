@@ -49,19 +49,29 @@ const Navbar = () => {
           <nav className="mt-20">
             <ul className="flex flex-col items-center gap-4">
               <li>
-                <Link to={"/"}>خانه</Link>
+                <Link onClick={() => setOpen(false)} to={"/"}>
+                  خانه
+                </Link>
               </li>
               <li>
-                <Link to={"/services"}>خدمات </Link>
+                <Link onClick={() => setOpen(false)} to={"/services"}>
+                  خدمات{" "}
+                </Link>
               </li>
               <li>
-                <Link to={"/projects"}>پروژه ها</Link>
+                <Link onClick={() => setOpen(false)} to={"/projects"}>
+                  پروژه ها
+                </Link>
               </li>
               <li>
-                <Link to={"/about-us"}>درباره ما </Link>
+                <Link onClick={() => setOpen(false)} to={"/about-us"}>
+                  درباره ما{" "}
+                </Link>
               </li>
               <li>
-                <Link to={"/contact-us"}>تماس ما </Link>
+                <Link onClick={() => setOpen(false)} to={"/contact-us"}>
+                  تماس ما{" "}
+                </Link>
               </li>
             </ul>
           </nav>

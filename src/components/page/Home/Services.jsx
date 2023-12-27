@@ -29,11 +29,11 @@ const Services = () => {
     return (
         <div className='mt-48'>
             <div className="w-full mb-12 bg-gray-200 p-4 rounded">
-                <div className="grid lg:grid-cols-3 grid-cols-1 gap-8">
+                <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-8">
                     {
                         fakeData.map((item) => (
-                            <div key={item.id}>
-                                <div className="flex items-center gap-4">
+                            <div key={item.id} className=''>
+                                <div className="flex items-center gap-4 bg-white rounded-md shadow-lg">
                                     <img className='h-16' src={item.img} alt={item.title} />
                                     <h1 className='text-sm'>{item.title}</h1>
                                 </div>

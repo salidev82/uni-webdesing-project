@@ -27,7 +27,7 @@ const ContactUs = () => {
                 <textarea className="w-full mt-8" placeholder='پیام شما' name="" id="" cols="30" rows="10"></textarea>
 
                 <div className="w-full my-4">
-                    <Button className={'w-full block text-center'}>
+                    <Button type="submit" className={'w-full block text-center'}>
                         ثبت
                     </Button>
                 </div>

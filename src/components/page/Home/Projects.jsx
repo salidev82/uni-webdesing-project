@@ -27,10 +27,10 @@ const Projects = () => {
     ]
 
     return (
-        <div className='text-center my-32'>
+        <div className='text-center my-32 mx-2'>
             <p className='text-main'>نمونه کار ها</p>
             <h2 className='text-black text-2xl'>پروژه های انجام شده توسط تیم ما</h2>
-            <div className='grid lg:grid-cols-3 grid-cols-1 gap-8 my-8'>
+            <div className='grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-8 my-8'>
                 {
                     fakeData.map((item) => {
                         return <ProjectCard key={item.id} img={item.img} title={item.title} description={item.description} />

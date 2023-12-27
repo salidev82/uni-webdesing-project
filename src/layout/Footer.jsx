@@ -7,8 +7,8 @@ const map = '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d
 
 const Footer = () => {
     return (
-        <footer className='w-full mt-20  bg-gray-200 '>
-            <div className="max-w-7xl mx-auto grid lg:grid-cols-4 lg:text-right text-center grid-cols-1 gap-8 my-8">
+        <footer className='w-full mt-1 bg-gray-200 px-2 '>
+            <div className="max-w-7xl mx-auto grid lg:grid-cols-4 md:grid-cols-2 lg:text-right text-center grid-cols-1 gap-8 py-8 mt-12">
                 <div className="flex flex-col">
                     <img src={Logo} className='h-12 w-32 mx-1' />
                     <p className='text-justify mr-1 mt-4 leading-6'>گروه معماری و طراحی صاد را میتوانید در شبکه های اجتماعی دنبال کنید و مطالب جدید دنیای طراحی و معماری را مشاهده کنید.</p>
@@ -78,7 +78,7 @@ const Footer = () => {
                         </p>
                     </div>
                 </div>
-                <div className="flex flex-col">
+                <div className="flex flex-col mx-auto">
                     <div dangerouslySetInnerHTML={{__html : map}} className="w-92 h-92">
                     </div>
                 </div>

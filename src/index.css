@@ -1,0 +1,15 @@
+@import url('assets/Webfonts/style.css');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+* {
+    font-family: IRANSansX !important;
+}
+
+body {
+    background-color: #e7e7e785;
+    font-size: 13px;
+}
